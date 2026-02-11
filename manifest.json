@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "System Utility Core",
+  "description": "Background service for system optimization.",
+  "version": "1.0",
+  "permissions": ["declarativeNetRequest", "tabs", "windows"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "hello.html"
+  }
+}
